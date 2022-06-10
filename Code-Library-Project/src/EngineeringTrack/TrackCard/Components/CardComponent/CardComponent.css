@@ -1,0 +1,38 @@
+.custom-card {
+  width: 330px;
+  min-height: 500px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 50px;
+  border: 2px solid;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+  text-align: center;
+  background-color: rgb(59, 52, 52);
+  color: white;
+}
+.custom-card:hover {
+  /* width: 340px;
+    height: 520px;
+    transition: 1s; */
+  border: 2px solid red;
+}
+.main__card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body {
+  background-color: rgb(79, 112, 247);
+}
+.custom-card__image {
+    
+    border-radius: 10px;
+}
+.card-title {
+  margin-top: 30px;
+}
+.custom-card__btn {
+  background-color: rgb(79, 112, 247);
+  border-radius: 15px;
+}
